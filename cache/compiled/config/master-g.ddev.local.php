@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1554594362,
-    'checksum' => '9ccc35f4fd7988b266f9e0e13a768423',
+    'timestamp' => 1554624876,
+    'checksum' => 'e8e6cd8bfcbfd53dcea7cdf5fcb4473a',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -12,6 +12,38 @@ return [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1554594328
+            ],
+            'plugins/aboutme' => [
+                'file' => 'user/config/plugins/aboutme.yaml',
+                'modified' => 1554611549
+            ],
+            'plugins/admin-addon-media-rename' => [
+                'file' => 'user/config/plugins/admin-addon-media-rename.yaml',
+                'modified' => 1554611791
+            ],
+            'plugins/advanced-pagecache' => [
+                'file' => 'user/config/plugins/advanced-pagecache.yaml',
+                'modified' => 1554622429
+            ],
+            'plugins/breadcrumbs' => [
+                'file' => 'user/config/plugins/breadcrumbs.yaml',
+                'modified' => 1554622713
+            ],
+            'plugins/mediaembed' => [
+                'file' => 'user/config/plugins/mediaembed.yaml',
+                'modified' => 1554612738
+            ],
+            'plugins/relatedpages' => [
+                'file' => 'user/config/plugins/relatedpages.yaml',
+                'modified' => 1554612082
+            ],
+            'plugins/topicmenu' => [
+                'file' => 'user/config/plugins/topicmenu.yaml',
+                'modified' => 1554612086
+            ],
+            'plugins/youtube' => [
+                'file' => 'user/config/plugins/youtube.yaml',
+                'modified' => 1554611844
             ],
             'scheduler' => [
                 'file' => 'user/config/scheduler.yaml',
@@ -31,7 +63,27 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1553112881
+                'modified' => 1554624871
+            ],
+            'themes/bones' => [
+                'file' => 'user/config/themes/bones.yaml',
+                'modified' => 1554613034
+            ],
+            'themes/bootstrap4' => [
+                'file' => 'user/config/themes/bootstrap4.yaml',
+                'modified' => 1554613874
+            ],
+            'themes/foundational' => [
+                'file' => 'user/config/themes/foundational.yaml',
+                'modified' => 1554613006
+            ],
+            'themes/future' => [
+                'file' => 'user/config/themes/future.yaml',
+                'modified' => 1554613606
+            ],
+            'themes/quark-open-publishing' => [
+                'file' => 'user/config/themes/quark-open-publishing.yaml',
+                'modified' => 1554613464
             ]
         ],
         'system/config' => [
@@ -61,13 +113,49 @@ return [
             ]
         ],
         'user/plugins' => [
+            'plugins/advanced-pagecache' => [
+                'file' => 'user/plugins/advanced-pagecache/advanced-pagecache.yaml',
+                'modified' => 1554611804
+            ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
                 'modified' => 1553112881
             ],
+            'plugins/image-captions' => [
+                'file' => 'user/plugins/image-captions/image-captions.yaml',
+                'modified' => 1554613369
+            ],
+            'plugins/pagination' => [
+                'file' => 'user/plugins/pagination/pagination.yaml',
+                'modified' => 1554613373
+            ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
                 'modified' => 1553112881
+            ],
+            'plugins/presentation-deckset' => [
+                'file' => 'user/plugins/presentation-deckset/presentation-deckset.yaml',
+                'modified' => 1554613378
+            ],
+            'plugins/topicmenu' => [
+                'file' => 'user/plugins/topicmenu/topicmenu.yaml',
+                'modified' => 1554611946
+            ],
+            'plugins/relatedpages' => [
+                'file' => 'user/plugins/relatedpages/relatedpages.yaml',
+                'modified' => 1554611982
+            ],
+            'plugins/tntsearch' => [
+                'file' => 'user/plugins/tntsearch/tntsearch.yaml',
+                'modified' => 1554613387
+            ],
+            'plugins/mediaembed' => [
+                'file' => 'user/plugins/mediaembed/mediaembed.yaml',
+                'modified' => 1554612238
+            ],
+            'plugins/simplesearch' => [
+                'file' => 'user/plugins/simplesearch/simplesearch.yaml',
+                'modified' => 1554613380
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
@@ -77,9 +165,69 @@ return [
                 'file' => 'user/plugins/problems/problems.yaml',
                 'modified' => 1553112881
             ],
+            'plugins/archives' => [
+                'file' => 'user/plugins/archives/archives.yaml',
+                'modified' => 1554613359
+            ],
+            'plugins/page-inject' => [
+                'file' => 'user/plugins/page-inject/page-inject.yaml',
+                'modified' => 1554613372
+            ],
+            'plugins/youtube' => [
+                'file' => 'user/plugins/youtube/youtube.yaml',
+                'modified' => 1554611830
+            ],
+            'plugins/markdown-fontawesome' => [
+                'file' => 'user/plugins/markdown-fontawesome/markdown-fontawesome.yaml',
+                'modified' => 1554613371
+            ],
+            'plugins/auto-date' => [
+                'file' => 'user/plugins/auto-date/auto-date.yaml',
+                'modified' => 1554613358
+            ],
+            'plugins/external_links' => [
+                'file' => 'user/plugins/external_links/external_links.yaml',
+                'modified' => 1554613362
+            ],
+            'plugins/admin-addon-media-rename' => [
+                'file' => 'user/plugins/admin-addon-media-rename/admin-addon-media-rename.yaml',
+                'modified' => 1554611597
+            ],
+            'plugins/aboutme' => [
+                'file' => 'user/plugins/aboutme/aboutme.yaml',
+                'modified' => 1554611530
+            ],
+            'plugins/feed' => [
+                'file' => 'user/plugins/feed/feed.yaml',
+                'modified' => 1554613364
+            ],
+            'plugins/shortcode-core' => [
+                'file' => 'user/plugins/shortcode-core/shortcode-core.yaml',
+                'modified' => 1554613390
+            ],
+            'plugins/git-sync' => [
+                'file' => 'user/plugins/git-sync/git-sync.yaml',
+                'modified' => 1554613366
+            ],
+            'plugins/blogroll' => [
+                'file' => 'user/plugins/blogroll/blogroll.yaml',
+                'modified' => 1554612121
+            ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
                 'modified' => 1553112881
+            ],
+            'plugins/bootstrapper' => [
+                'file' => 'user/plugins/bootstrapper/bootstrapper.yaml',
+                'modified' => 1554613852
+            ],
+            'plugins/breadcrumbs' => [
+                'file' => 'user/plugins/breadcrumbs/breadcrumbs.yaml',
+                'modified' => 1554613360
+            ],
+            'plugins/presentation' => [
+                'file' => 'user/plugins/presentation/presentation.yaml',
+                'modified' => 1554613377
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
@@ -88,11 +236,29 @@ return [
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
                 'modified' => 1553112881
+            ],
+            'plugins/shortcode-ui' => [
+                'file' => 'user/plugins/shortcode-ui/shortcode-ui.yaml',
+                'modified' => 1554613396
+            ],
+            'plugins/taxonomylist' => [
+                'file' => 'user/plugins/taxonomylist/taxonomylist.yaml',
+                'modified' => 1554613382
             ]
         ]
     ],
     'data' => [
         'plugins' => [
+            'advanced-pagecache' => [
+                'enabled' => false,
+                'enabled_with_params' => true,
+                'enabled_with_query' => true,
+                'whitelist' => false,
+                'blacklist' => [
+                    0 => '/error',
+                    1 => '/random'
+                ]
+            ],
             'markdown-notices' => [
                 'enabled' => true,
                 'built_in_css' => true,
@@ -102,6 +268,19 @@ return [
                     2 => 'blue',
                     3 => 'green'
                 ]
+            ],
+            'image-captions' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'entire_page' => false,
+                'scope' => 'img.caption',
+                'figure_class' => 'image-caption',
+                'figcaption_class' => NULL
+            ],
+            'pagination' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'delta' => 0
             ],
             'form' => [
                 'enabled' => true,
@@ -125,6 +304,287 @@ return [
                     'version' => '2-checkbox',
                     'site_key' => NULL,
                     'secret_key' => NULL
+                ]
+            ],
+            'presentation-deckset' => [
+                'enabled' => true
+            ],
+            'topicmenu' => [
+                'enabled' => true,
+                'page_path' => '/blog',
+                'taxonomy_level_1' => 'topic',
+                'taxonomy_level_2' => 'tag'
+            ],
+            'relatedpages' => [
+                'enabled' => false,
+                'limit' => 5,
+                'show_score' => true,
+                'score_threshold' => 20,
+                'filter' => [
+                    'items' => [
+                        '@page' => '/blog'
+                    ],
+                    'order' => [
+                        'by' => 'date',
+                        'dir' => 'desc'
+                    ]
+                ],
+                'page_in_filter' => true,
+                'explicit_pages' => [
+                    'process' => true,
+                    'score' => 100
+                ],
+                'taxonomy_match' => [
+                    'taxonomy' => 'tag',
+                    'taxonomy_taxonomy' => [
+                        'process' => true,
+                        'score_scale' => [
+                            1 => 50,
+                            2 => 75,
+                            3 => 100
+                        ]
+                    ],
+                    'taxonomy_content' => [
+                        'process' => true,
+                        'score_scale' => [
+                            1 => 20,
+                            2 => 30,
+                            3 => 45,
+                            4 => 60,
+                            5 => 70,
+                            6 => 80,
+                            7 => 90,
+                            8 => 100
+                        ]
+                    ]
+                ],
+                'content_match' => [
+                    'process' => false
+                ]
+            ],
+            'tntsearch' => [
+                'enabled' => true,
+                'search_route' => '/search',
+                'query_route' => '/s',
+                'built_in_css' => true,
+                'built_in_js' => true,
+                'built_in_search_page' => true,
+                'enable_admin_page_events' => true,
+                'search_type' => 'auto',
+                'fuzzy' => false,
+                'phrases' => true,
+                'stemmer' => 'default',
+                'display_route' => true,
+                'display_hits' => true,
+                'display_time' => true,
+                'live_uri_update' => true,
+                'limit' => 20,
+                'min' => 3,
+                'snippet' => 300,
+                'index_page_by_default' => true,
+                'scheduled_index' => [
+                    'enabled' => false,
+                    'at' => '0 */3 * * *',
+                    'logs' => 'logs/tntsearch-index.out'
+                ],
+                'filter' => [
+                    'items' => [
+                        0 => 'root@.descendants'
+                    ]
+                ],
+                'powered_by' => true,
+                'search_object_type' => 'Grav'
+            ],
+            'mediaembed' => [
+                'enabled' => true,
+                'link' => false,
+                'built_in_css' => true,
+                'built_in_js' => false,
+                'media' => [
+                    'width' => 640,
+                    'height' => 390,
+                    'adjust' => true,
+                    'preview' => true,
+                    'responsive' => true,
+                    'protocol' => 'http://'
+                ],
+                'services' => [
+                    'SoundCloud' => [
+                        'enabled' => true,
+                        'type' => 'rich',
+                        'example' => 'https://soundcloud.com/semiseria/verruckert-ausschnitt',
+                        'url' => 'w.soundcloud.com/player/?url=http://api.soundcloud.com/tracks/{:id}',
+                        'canonical' => 'http://soundcloud.com/{:id}',
+                        'endpoint' => 'http://soundcloud.com/oembed?url={:canonical}&format=json',
+                        'schemes' => [
+                            0 => 'soundcloud.com/*',
+                            1 => 'soundcloud.com/*/*',
+                            2 => 'soundcloud.com/*/sets/*',
+                            3 => 'soundcloud.com/groups/*',
+                            4 => 'snd.sc/*'
+                        ],
+                        'params' => [
+                            'auto_play' => false,
+                            'buying' => true,
+                            'download' => true,
+                            'hide_related' => false,
+                            'liking' => true,
+                            'sharing' => true,
+                            'show_artwork' => true,
+                            'show_comments' => true,
+                            'show_playcount' => true,
+                            'show_user' => true,
+                            'visual' => false
+                        ]
+                    ],
+                    'Spotify' => [
+                        'enabled' => true,
+                        'type' => 'rich',
+                        'canonical' => 'http://open.spotify.com/track/{:id}',
+                        'endpoint' => 'https://embed.spotify.com/oembed/?url={:canonical}&format=json',
+                        'schemes' => [
+                            0 => 'open.spotify.com/track/*',
+                            1 => 'spoti.fi/*'
+                        ]
+                    ],
+                    'Flickr' => [
+                        'enabled' => true,
+                        'type' => 'photo',
+                        'canonical' => 'http://www.flickr.com/photos/{:id}',
+                        'endpoint' => 'http://flickr.com/services/oembed?url={:canonical}&format=json',
+                        'schemes' => [
+                            0 => 'flickr.com/photos/*',
+                            1 => 'flic.kr/*'
+                        ]
+                    ],
+                    'Imgur' => [
+                        'enabled' => true,
+                        'type' => 'rich',
+                        'canonical' => 'http://imgur.com/gallery/{:id}',
+                        'endpoint' => 'http://api.imgur.com/oembed?url={:canonical}&format=json',
+                        'schemes' => [
+                            0 => 'imgur.com/gallery/*',
+                            1 => 'imgur.com/a/*',
+                            2 => 'imgur.com/*'
+                        ]
+                    ],
+                    'Instagram' => [
+                        'enabled' => true,
+                        'type' => 'rich',
+                        'canonical' => 'http://instagram.com/p/{:id}',
+                        'endpoint' => 'http://api.instagram.com/oembed?url={:canonical}&format=json',
+                        'schemes' => [
+                            0 => 'instagr.am/p/*',
+                            1 => 'instagram.com/p/*'
+                        ]
+                    ],
+                    'Dailymotion' => [
+                        'enabled' => true,
+                        'type' => 'video',
+                        'url' => 'www.dailymotion.com/embed/video/{:id}',
+                        'canonical' => 'http://dailymotion.com/video/{:id}',
+                        'endpoint' => 'http://www.dailymotion.com/services/oembed?url={:canonical}&format=json',
+                        'schemes' => [
+                            0 => 'dailymotion.com/video/*',
+                            1 => 'dailymotion.com/*/video/*',
+                            2 => 'dai\\.ly/*'
+                        ],
+                        'params' => [
+                            'quality' => 1080
+                        ]
+                    ],
+                    'YouTube' => [
+                        'enabled' => true,
+                        'type' => 'video',
+                        'url' => 'www.youtube.com/embed/{:id}',
+                        'canonical' => 'http://www.youtube.com/watch?v={:id}',
+                        'endpoint' => 'http://www.youtube.com/oembed?url={:canonical}&format=json',
+                        'schemes' => [
+                            0 => 'youtube.com/watch?*v=*',
+                            1 => 'youtube.com/embed/*',
+                            2 => 'youtube.com/v/*',
+                            3 => 'youtube.com/?*v=*',
+                            4 => 'youtu.be/*'
+                        ],
+                        'params' => [
+                            'autoplay' => 0,
+                            'modestbranding' => 1,
+                            'theme' => 'light'
+                        ]
+                    ],
+                    'Vimeo' => [
+                        'enabled' => true,
+                        'type' => 'video',
+                        'url' => 'player.vimeo.com/video/{:id}',
+                        'canonical' => 'https://vimeo.com/{:id}',
+                        'endpoint' => 'http://vimeo.com/api/oembed.json?url={:canonical}',
+                        'schemes' => [
+                            0 => 'vimeo.com/*',
+                            1 => 'vimeo.com/channels/*/*',
+                            2 => 'vimeo.com/groups/*/videos/*'
+                        ],
+                        'params' => [
+                            'autoplay' => 0
+                        ]
+                    ],
+                    'Github' => [
+                        'enabled' => true,
+                        'type' => 'rich',
+                        'canonical' => 'https://gist.github.com/{:id}',
+                        'endpoint' => 'https://gist.github.com/{:id}.json',
+                        'schemes' => [
+                            0 => 'gist.github.com/*',
+                            1 => 'gist.github.com/*/*',
+                            2 => 'gist.github.com/*?*'
+                        ]
+                    ],
+                    'Slides' => [
+                        'enabled' => true,
+                        'type' => 'rich',
+                        'canonical' => 'http://slides.com/{:id}',
+                        'endpoint' => 'http://slides.com/{:id}',
+                        'schemes' => [
+                            0 => 'slides.com/*',
+                            1 => 'slid.es/*'
+                        ],
+                        'params' => [
+                            'style' => 'light',
+                            'width' => 1920,
+                            'height' => 1400
+                        ]
+                    ],
+                    'Twitter' => [
+                        'enabled' => true,
+                        'type' => 'rich',
+                        'canonical' => 'https://twitter.com/{:id}',
+                        'endpoint' => 'https://api.twitter.com/1/statuses/oembed.json?url={:canonical}',
+                        'schemes' => [
+                            0 => 'twitter.com/*',
+                            1 => 'twitter.com/*/*'
+                        ]
+                    ],
+                    'GitHub' => [
+                        'enabled' => true
+                    ]
+                ]
+            ],
+            'simplesearch' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'built_in_js' => true,
+                'display_button' => false,
+                'min_query_length' => 3,
+                'route' => '/search',
+                'search_content' => 'rendered',
+                'template' => 'simplesearch_results',
+                'filters' => [
+                    'category' => NULL
+                ],
+                'filter_combinator' => 'and',
+                'ignore_accented_characters' => false,
+                'order' => [
+                    'by' => 'date',
+                    'dir' => 'desc'
                 ]
             ],
             'admin' => [
@@ -195,10 +655,348 @@ return [
                 'enabled' => true,
                 'built_in_css' => true
             ],
+            'archives' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'date_display_format' => 'F Y',
+                'show_count' => true,
+                'limit' => 12,
+                'order' => [
+                    'by' => 'date',
+                    'dir' => 'desc'
+                ],
+                'filter_combinator' => 'and',
+                'filters' => [
+                    'category' => 'blog'
+                ],
+                'taxonomy_names' => [
+                    'month' => 'archives_month',
+                    'year' => 'archives_year'
+                ]
+            ],
+            'page-inject' => [
+                'enabled' => true,
+                'active' => true,
+                'processed_content' => true
+            ],
+            'youtube' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'add_editor_button' => true,
+                'player_parameters' => [
+                    'autoplay' => 0,
+                    'cc_load_policy' => 0,
+                    'color' => 'red',
+                    'controls' => 1,
+                    'disablekb' => 1,
+                    'enablejsapi' => 0,
+                    'fs' => 1,
+                    'hl' => '',
+                    'iv_load_policy' => 1,
+                    'loop' => 0,
+                    'modestbranding' => 1,
+                    'origin' => '',
+                    'playsinline' => 0,
+                    'rel' => 1,
+                    'showinfo' => 1,
+                    'vq' => 'default'
+                ],
+                'privacy_enhanced_mode' => false
+            ],
+            'markdown-fontawesome' => [
+                'enabled' => true
+            ],
+            'auto-date' => [
+                'enabled' => true
+            ],
+            'external_links' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'weight' => 0,
+                'exclude' => [
+                    'classes' => [
+                        0 => 'exclude'
+                    ],
+                    'domains' => NULL
+                ],
+                'links' => [
+                    'www' => false,
+                    'redirects' => false,
+                    'schemes' => [
+                        0 => 'http',
+                        1 => 'https',
+                        2 => 'ftp',
+                        3 => 'irc',
+                        4 => 'mailto',
+                        5 => 'news',
+                        6 => 'nntp',
+                        7 => 'rtsp',
+                        8 => 'sftp',
+                        9 => 'ssh',
+                        10 => 'tel',
+                        11 => 'telnet',
+                        12 => 'webcal'
+                    ]
+                ],
+                'process' => true,
+                'title' => false,
+                'no_follow' => true,
+                'target' => '_blank',
+                'mode' => 'active'
+            ],
+            'admin-addon-media-rename' => [
+                'enabled' => false,
+                'modal' => [
+                    'fields' => [
+                        0 => [
+                            'type' => 'section',
+                            'title' => 'PLUGIN_ADMIN_ADDON_MEDIA_RENAME.RENAME_MEDIA'
+                        ],
+                        1 => [
+                            'type' => 'text',
+                            'label' => 'PLUGIN_ADMIN_ADDON_MEDIA_RENAME.ORIGINAL_NAME',
+                            'name' => 'old_name',
+                            'readonly' => true
+                        ],
+                        2 => [
+                            'type' => 'text',
+                            'label' => 'PLUGIN_ADMIN_ADDON_MEDIA_RENAME.ORIGINAL_EXTENSION',
+                            'name' => 'old_ext',
+                            'readonly' => true
+                        ],
+                        3 => [
+                            'type' => 'text',
+                            'label' => 'PLUGIN_ADMIN_ADDON_MEDIA_RENAME.NEW_NAME',
+                            'name' => 'new_name'
+                        ],
+                        4 => [
+                            'type' => 'text',
+                            'label' => 'PLUGIN_ADMIN_ADDON_MEDIA_RENAME.NEW_EXTENSION',
+                            'name' => 'new_ext'
+                        ],
+                        5 => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_ADMIN_ADDON_MEDIA_RENAME.REPLACE_EXISTING',
+                            'name' => 'replace',
+                            'highlight' => 1,
+                            'default' => 1,
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.YES',
+                                0 => 'PLUGIN_ADMIN.NO'
+                            ]
+                        ],
+                        6 => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_ADMIN_ADDON_MEDIA_RENAME.REPLACE_EXISTING_ALL',
+                            'name' => 'replace_all',
+                            'highlight' => 1,
+                            'default' => 1,
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.YES',
+                                0 => 'PLUGIN_ADMIN.NO'
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            'aboutme' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'name' => 'Santa Claus',
+                'title' => 'Present Giver',
+                'show_title' => true,
+                'description' => 'Santa Claus, Saint Nicholas, Saint Nick, Father Christmas, Kris Kringle, Santy, or simply Santa is a figure with legendary, historical and folkloric origins who, in many Western cultures, is said to bring gifts to the homes of good children on 24 December, the night before Christmas Day. The modern figure of Santa Claus is derived from the British figure of Father Christmas, the Dutch figure of Sinterklaas, and Saint Nicholas, the historical Greek bishop and gift-giver of Myra. During the Christianization of Germanic Europe, this figure may also have absorbed elements of the god Odin, who was associated with the Germanic pagan midwinter event of Yule and led the Wild Hunt, a ghostly procession through the sky',
+                'picture_src' => [
+                    'user/plugins/aboutme/assets/avatars/santa.jpg' => [
+                        'name' => 'santa.jpg',
+                        'type' => 'image/jpeg',
+                        'size' => 43391,
+                        'path' => 'user/plugins/aboutme/assets/avatars/santa.jpg'
+                    ]
+                ],
+                'gravatar' => [
+                    'enabled' => true,
+                    'email' => 'example@test.com',
+                    'size' => 100
+                ],
+                'social_pages' => [
+                    'enabled' => true,
+                    'use_font_awesome' => false,
+                    'pages' => [
+                        'facebook' => [
+                            'icon' => 'facebook-official',
+                            'title' => 'Facebook',
+                            'position' => 1
+                        ],
+                        'twitter' => [
+                            'icon' => 'twitter',
+                            'title' => 'Twitter',
+                            'position' => 2
+                        ],
+                        'google_plus' => [
+                            'icon' => 'google-plus-square',
+                            'title' => 'Google+',
+                            'position' => 3
+                        ],
+                        'github' => [
+                            'icon' => 'github',
+                            'title' => 'GitHub',
+                            'position' => 4
+                        ],
+                        'linkedin' => [
+                            'icon' => 'linkedin-square',
+                            'title' => 'LinkedIn',
+                            'position' => 5
+                        ],
+                        'instagram' => [
+                            'icon' => 'instagram',
+                            'title' => 'Instagram',
+                            'position' => 6
+                        ]
+                    ]
+                ]
+            ],
+            'feed' => [
+                'enabled' => true,
+                'limit' => 10,
+                'description' => 'My Feed Description',
+                'lang' => 'en-us',
+                'length' => 500,
+                'enable_json_feed' => false
+            ],
+            'shortcode-core' => [
+                'enabled' => true,
+                'active' => true,
+                'active_admin' => true,
+                'admin_pages_only' => true,
+                'parser' => 'regular',
+                'custom_shortcodes' => NULL,
+                'fontawesome' => [
+                    'load' => true,
+                    'url' => '//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css',
+                    'v5' => false
+                ]
+            ],
+            'git-sync' => [
+                'enabled' => true
+            ],
+            'blogroll' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'default_tags' => [
+                    
+                ],
+                'default_orderby' => 'asis',
+                'default_combinator' => 'or',
+                'default_asc' => true,
+                'links' => [
+                    0 => [
+                        'name' => 'Link 1',
+                        'description' => 'First link',
+                        'link' => 'http://example.com/1',
+                        'tags' => [
+                            0 => 'tag1'
+                        ],
+                        'sortkey' => 'ccc'
+                    ],
+                    1 => [
+                        'name' => 'Link 2',
+                        'description' => 'Second Link',
+                        'link' => 'http://example.com/2',
+                        'tags' => [
+                            0 => 'tag1',
+                            1 => 'tag2'
+                        ],
+                        'sortkey' => 'bbb'
+                    ],
+                    2 => [
+                        'name' => 'Link 3',
+                        'description' => 'Third link',
+                        'link' => 'http://example.com/3',
+                        'tags' => [
+                            0 => 'tag1',
+                            1 => 'tag2'
+                        ],
+                        'sortkey' => 'aaa'
+                    ]
+                ]
+            ],
             'error' => [
                 'enabled' => true,
                 'routes' => [
                     404 => '/error'
+                ]
+            ],
+            'bootstrapper' => [
+                'enabled' => true,
+                'version' => 'v3',
+                'always_load' => false,
+                'use_cdn' => false,
+                'mode' => 'production',
+                'load_core_css' => true,
+                'load_theme_css' => true,
+                'load_popper_js' => true,
+                'load_core_js' => true
+            ],
+            'breadcrumbs' => [
+                'enabled' => true,
+                'show_all' => true,
+                'built_in_css' => true,
+                'include_home' => false,
+                'include_current' => true,
+                'icon_home' => '',
+                'icon_divider_classes' => 'fa fa-angle-right',
+                'link_trailing' => true
+            ],
+            'presentation' => [
+                'enabled' => true,
+                'theme' => 'moon',
+                'order' => [
+                    'by' => 'folder',
+                    'dir' => 'asc'
+                ],
+                'theme_css' => true,
+                'builtin_css' => true,
+                'builtin_js' => true,
+                'plugin_css' => true,
+                'plugin_js' => true,
+                'textsizing' => true,
+                'sync' => 'none',
+                'api_route' => 'presentationapi',
+                'poll_timeout' => 2000,
+                'poll_retry_limit' => 10,
+                'token_auth' => false,
+                'token' => 'Hd4HFdPvbpKzTqz',
+                'admin_async_save' => false,
+                'admin_async_save_typing' => false,
+                'footer' => '',
+                'transition' => true,
+                'shortcodes' => true,
+                'shortcode_classes' => 'presentation-iframe',
+                'unwrap_images' => true,
+                'content' => 'Content',
+                'parser' => 'Parser',
+                'transport' => 'Transport',
+                'breakpoints' => [
+                    240 => '16',
+                    320 => '20',
+                    576 => '24',
+                    768 => '28',
+                    992 => '32',
+                    1200 => '36',
+                    1600 => '40'
+                ],
+                'options' => [
+                    'width' => '100%',
+                    'height' => '100%',
+                    'margin' => '0',
+                    'minScale' => '1',
+                    'maxScale' => '1',
+                    'transition' => 'fade',
+                    'controlsTutorial' => 'false',
+                    'history' => 'true',
+                    'display' => 'flex',
+                    'pdfSeparateFragments' => false
                 ]
             ],
             'login' => [
@@ -285,6 +1083,16 @@ return [
                 ],
                 'content_type' => 'text/html',
                 'debug' => false
+            ],
+            'shortcode-ui' => [
+                'enabled' => true,
+                'theme' => [
+                    'tabs' => 'default'
+                ]
+            ],
+            'taxonomylist' => [
+                'enabled' => true,
+                'route' => '/blog'
             ]
         ],
         'backups' => [
@@ -885,6 +1693,300 @@ node_modules'
         ],
         'scheduler' => [
             
+        ],
+        'themes' => [
+            'bones' => [
+                'enabled' => true,
+                'site_title' => [
+                    'enabled' => true
+                ],
+                'google_fonts_logo' => [
+                    'enabled' => true
+                ],
+                'fontawesome' => [
+                    'enabled' => true
+                ],
+                'google_prettify' => [
+                    'enabled' => true
+                ],
+                'dropdown' => [
+                    'enabled' => false
+                ],
+                'mobilemenu_breakpoint' => 'large',
+                'mobilemenu_position' => 'left',
+                'foundation_offcanvas_js' => [
+                    'enabled' => true
+                ],
+                'foundation_util_mediaQuery_js' => [
+                    'enabled' => true
+                ],
+                'foundation_util_motion_js' => [
+                    'enabled' => true
+                ],
+                'foundation_util_touch_js' => [
+                    'enabled' => true
+                ],
+                'foundation_util_triggers_js' => [
+                    'enabled' => true
+                ],
+                'css_bones' => [
+                    'enabled' => false
+                ],
+                'css_global_styles' => [
+                    'enabled' => true
+                ],
+                'css_grid' => [
+                    'enabled' => true
+                ],
+                'css_flex_grid' => [
+                    'enabled' => true
+                ],
+                'css_typography' => [
+                    'enabled' => true
+                ],
+                'css_button' => [
+                    'enabled' => true
+                ],
+                'css_forms' => [
+                    'enabled' => true
+                ],
+                'css_visibility_classes' => [
+                    'enabled' => true
+                ],
+                'css_float_classes' => [
+                    'enabled' => true
+                ],
+                'css_menu' => [
+                    'enabled' => true
+                ],
+                'css_off_canvas' => [
+                    'enabled' => true
+                ],
+                'css_pagination' => [
+                    'enabled' => true
+                ],
+                'css_sticky' => [
+                    'enabled' => true
+                ],
+                'css_table' => [
+                    'enabled' => true
+                ],
+                'animate_css' => [
+                    'enabled' => true
+                ],
+                'wow_js' => [
+                    'enabled' => true
+                ],
+                'foundation_abide_js' => [
+                    'enabled' => false
+                ],
+                'foundation_accordion_js' => [
+                    'enabled' => false
+                ],
+                'foundation_accordionMenu_js' => [
+                    'enabled' => false
+                ],
+                'foundation_drilldown_js' => [
+                    'enabled' => false
+                ],
+                'foundation_dropdown_js' => [
+                    'enabled' => false
+                ],
+                'foundation_dropdownMenu_js' => [
+                    'enabled' => false
+                ],
+                'foundation_equalizer_js' => [
+                    'enabled' => false
+                ],
+                'foundation_interchange_js' => [
+                    'enabled' => false
+                ],
+                'foundation_magellan_js' => [
+                    'enabled' => false
+                ],
+                'foundation_orbit_js' => [
+                    'enabled' => false
+                ],
+                'foundation_responsiveMenu_js' => [
+                    'enabled' => true
+                ],
+                'foundation_responsiveToggle_js' => [
+                    'enabled' => false
+                ],
+                'foundation_reveal_js' => [
+                    'enabled' => false
+                ],
+                'foundation_slider_js' => [
+                    'enabled' => false
+                ],
+                'foundation_sticky_js' => [
+                    'enabled' => false
+                ],
+                'foundation_tabs_js' => [
+                    'enabled' => false
+                ],
+                'foundation_toggler_js' => [
+                    'enabled' => false
+                ],
+                'foundation_tooltip_js' => [
+                    'enabled' => false
+                ],
+                'foundation_util_box_js' => [
+                    'enabled' => false
+                ],
+                'foundation_util_keyboard_js' => [
+                    'enabled' => false
+                ],
+                'foundation_util_nest_js' => [
+                    'enabled' => false
+                ],
+                'foundation_util_timerAndImageLoader_js' => [
+                    'enabled' => false
+                ],
+                'css_custom' => [
+                    'enabled' => true
+                ],
+                'css_accordion' => [
+                    'enabled' => false
+                ],
+                'css_accordion_menu' => [
+                    'enabled' => false
+                ],
+                'css_badge' => [
+                    'enabled' => false
+                ],
+                'css_breadcrumbs' => [
+                    'enabled' => false
+                ],
+                'css_button_group' => [
+                    'enabled' => false
+                ],
+                'css_callout' => [
+                    'enabled' => true
+                ],
+                'css_close_button' => [
+                    'enabled' => false
+                ],
+                'css_drilldown_menu' => [
+                    'enabled' => false
+                ],
+                'css_dropdown' => [
+                    'enabled' => false
+                ],
+                'css_dropdown_menu' => [
+                    'enabled' => false
+                ],
+                'css_flex_video' => [
+                    'enabled' => false
+                ],
+                'css_label' => [
+                    'enabled' => false
+                ],
+                'css_media_object' => [
+                    'enabled' => false
+                ],
+                'css_orbit' => [
+                    'enabled' => false
+                ],
+                'css_progress_bar' => [
+                    'enabled' => false
+                ],
+                'css_slider' => [
+                    'enabled' => false
+                ],
+                'css_reveal' => [
+                    'enabled' => false
+                ],
+                'css_switch' => [
+                    'enabled' => false
+                ],
+                'css_tabs' => [
+                    'enabled' => false
+                ],
+                'css_thumbnail' => [
+                    'enabled' => false
+                ],
+                'css_title_bar' => [
+                    'enabled' => false
+                ],
+                'css_tooltip' => [
+                    'enabled' => false
+                ],
+                'css_top_bar' => [
+                    'enabled' => false
+                ],
+                'css_ui_transitions' => [
+                    'enabled' => true
+                ],
+                'css_ui_animations' => [
+                    'enabled' => true
+                ]
+            ],
+            'bootstrap4' => [
+                'navbar_style' => 'navbar-light',
+                'navbar_bgcolor' => '#ffffff',
+                'dropdown' => [
+                    'enabled' => false
+                ]
+            ],
+            'foundational' => [
+                'enabled' => true,
+                'dropdown' => [
+                    'enabled' => true
+                ]
+            ],
+            'future' => [
+                'enabled' => true,
+                'color' => 'blue',
+                'dropdown' => [
+                    'enabled' => false
+                ]
+            ],
+            'quark-open-publishing' => [
+                'streams' => [
+                    'schemes' => [
+                        'theme' => [
+                            'type' => 'ReadOnlyStream',
+                            'prefixes' => [
+                                '' => [
+                                    0 => 'user/themes/quark-open-publishing',
+                                    1 => 'user/themes/quark'
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                'chromeless' => [
+                    'enabled' => false
+                ],
+                'display_of_git_sync_repo_link' => 'menu',
+                'type_of_git_sync_repo_link' => 'view',
+                'h5pembedrootpath' => 'https://h5p.org/h5p/embed/',
+                'cc_license' => [
+                    'enabled' => false,
+                    'type' => 'ccby',
+                    'icon' => false
+                ],
+                'dropdown' => [
+                    'enabled' => false
+                ],
+                'displaycustommenus' => [
+                    'enabled' => false
+                ],
+                'hidehomemenulink' => false,
+                'production-mode' => true,
+                'grid-size' => 'grid-lg',
+                'header-fixed' => true,
+                'header-animated' => true,
+                'header-dark' => true,
+                'header-transparent' => true,
+                'sticky-footer' => true,
+                'blog-page' => '/blog',
+                'spectre' => [
+                    'exp' => true,
+                    'icons' => true
+                ]
+            ]
         ]
     ]
 ];

@@ -29,7 +29,7 @@
 
 @media screen and (min-width: 980px) {
     .bricklayer-column-sizer {
-        width: 50%;
+        width: 100%;
     }
 }
 

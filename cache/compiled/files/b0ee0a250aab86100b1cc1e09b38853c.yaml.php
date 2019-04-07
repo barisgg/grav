@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/themes/quark/languages.yaml',
-    'modified' => 1554594393,
+    'modified' => 1554619796,
     'data' => [
         'en' => [
             'THEME_QUARK' => [
