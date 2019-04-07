@@ -52,7 +52,6 @@ class __TwigTemplate_d6f5f822a4902f9d99cf268a8c696b3472de645a1dd9a816a974c8eb13a
         echo ($context["content"] ?? null);
         echo "
     </section>
-    <i id=\"to-start\" class=\"pulse fa fa-angle-down\"></i>
 </section>";
     }
 
@@ -86,7 +85,6 @@ class __TwigTemplate_d6f5f822a4902f9d99cf268a8c696b3472de645a1dd9a816a974c8eb13a
     <section class=\"container {{ grid_size }}\" style=\"text-align: {{ page.header.hero_align|default('center') }}\">
         {{ content|raw }}
     </section>
-    <i id=\"to-start\" class=\"pulse fa fa-angle-down\"></i>
 </section>", "partials/hero.html.twig", "/var/www/html/user/themes/quark/templates/partials/hero.html.twig");
     }
 }

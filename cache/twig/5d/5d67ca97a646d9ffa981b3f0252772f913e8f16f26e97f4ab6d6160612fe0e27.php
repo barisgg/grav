@@ -21,6 +21,7 @@ class __TwigTemplate_4d364653aed6f11118e580bc6349c9a353a72f1c68d48f03f48fc084eb0
         // line 1
         $this->parent = $this->loadTemplate("partials/base.html.twig", "default.html.twig", 1);
         $this->blocks = [
+            'breadcrumbs' => [$this, 'block_breadcrumbs'],
             'content' => [$this, 'block_content'],
         ];
     }
@@ -35,10 +36,20 @@ class __TwigTemplate_4d364653aed6f11118e580bc6349c9a353a72f1c68d48f03f48fc084eb0
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 3
+    // line 2
+    public function block_breadcrumbs($context, array $blocks = [])
+    {
+        // line 3
+        if ((($context["show_breadcrumbs"] ?? null) && $this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", []), "breadcrumbs", []), "enabled", []))) {
+            // line 4
+            $this->loadTemplate("partials/breadcrumbs.html.twig", "default.html.twig", 4)->display($context);
+        }
+    }
+
+    // line 8
     public function block_content($context, array $blocks = [])
     {
-        // line 4
+        // line 9
         echo "    ";
         echo $this->getAttribute(($context["page"] ?? null), "content", []);
         echo "
@@ -57,7 +68,7 @@ class __TwigTemplate_4d364653aed6f11118e580bc6349c9a353a72f1c68d48f03f48fc084eb0
 
     public function getDebugInfo()
     {
-        return array (  42 => 4,  39 => 3,  22 => 1,);
+        return array (  53 => 9,  50 => 8,  45 => 4,  43 => 3,  40 => 2,  22 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -71,6 +82,11 @@ class __TwigTemplate_4d364653aed6f11118e580bc6349c9a353a72f1c68d48f03f48fc084eb0
     public function getSourceContext()
     {
         return new Source("{% extends 'partials/base.html.twig' %}
+{% block breadcrumbs %}
+{% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
+{% include 'partials/breadcrumbs.html.twig' %}
+{% endif %}
+{% endblock %}
 
 {% block content %}
     {{ page.content|raw }}

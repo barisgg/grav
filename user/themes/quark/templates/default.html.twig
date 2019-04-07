@@ -1,4 +1,9 @@
 {% extends 'partials/base.html.twig' %}
+{% block breadcrumbs %}
+{% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
+{% include 'partials/breadcrumbs.html.twig' %}
+{% endif %}
+{% endblock %}
 
 {% block content %}
     {{ page.content|raw }}
