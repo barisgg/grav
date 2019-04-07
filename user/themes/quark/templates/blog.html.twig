@@ -2,7 +2,6 @@
 {% set blog_image = page.media.images[page.header.hero_image] ?: page.media.images|first %}
 {% set collection = page.collection() %}
 {% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
-{% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
 {% set show_sidebar = header_var('show_sidebar', [page, blog])|defined(true)  %}
 {% set show_pagination = header_var('show_pagination', [page, blog])|defined(true) %}
 
@@ -27,7 +26,7 @@
         <section class="container {{ grid_size }}">
 
         {% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
-            {% include 'partials/breadcrumbs.html.twig' %}
+            {% include 'partials/breadcrumbs.html.twig' with {blog: page} %}
         {% endif %}
 
         {% embed 'partials/layout.html.twig' with {blog: page} %}
@@ -38,12 +37,6 @@
                     {% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
                 {% endfor %}
                 </div>
-
-                {% if show_pagination and config.plugins.pagination.enabled and collection.params.pagination %}
-                    <div id="listing-footer">
-                        {% include 'partials/pagination.html.twig' with {base_url: page.url, pagination: collection.params.pagination} %}
-                    </div>
-                {% endif %}
 
             {% endblock %}
 

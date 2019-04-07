@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1554624864,
-    'checksum' => 'bdfc23e24138f78c03ec7c911a13ff8f',
+    'timestamp' => 1554628643,
+    'checksum' => 'e75aaccfe933f98bf9c924e595882481',
     'files' => [
         'system/blueprints/config' => [
             'backups' => [
@@ -49,7 +49,7 @@ return [
             ],
             'plugins/pagination' => [
                 'file' => 'user/plugins/pagination/blueprints.yaml',
-                'modified' => 1554613373
+                'modified' => 1554628367
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1554625509,
-    'checksum' => 'b1289b98f35a980cc00784cf03fb9116',
+    'timestamp' => 1554630383,
+    'checksum' => '3d5e4a2e38de6c9cbec0ea671869f2bf',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -25,13 +25,25 @@ return [
                 'file' => 'user/config/plugins/advanced-pagecache.yaml',
                 'modified' => 1554622429
             ],
+            'plugins/archives' => [
+                'file' => 'user/config/plugins/archives.yaml',
+                'modified' => 1554630293
+            ],
             'plugins/breadcrumbs' => [
                 'file' => 'user/config/plugins/breadcrumbs.yaml',
                 'modified' => 1554622713
             ],
+            'plugins/feed' => [
+                'file' => 'user/config/plugins/feed.yaml',
+                'modified' => 1554630378
+            ],
             'plugins/mediaembed' => [
                 'file' => 'user/config/plugins/mediaembed.yaml',
                 'modified' => 1554612738
+            ],
+            'plugins/pagination' => [
+                'file' => 'user/config/plugins/pagination.yaml',
+                'modified' => 1554628329
             ],
             'plugins/relatedpages' => [
                 'file' => 'user/config/plugins/relatedpages.yaml',
@@ -55,7 +67,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1553112881
+                'modified' => 1554629809
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -63,7 +75,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1554624871
+                'modified' => 1554630102
             ],
             'themes/bones' => [
                 'file' => 'user/config/themes/bones.yaml',
@@ -127,7 +139,7 @@ return [
             ],
             'plugins/pagination' => [
                 'file' => 'user/plugins/pagination/pagination.yaml',
-                'modified' => 1554613373
+                'modified' => 1554628367
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
@@ -278,7 +290,7 @@ return [
                 'figcaption_class' => NULL
             ],
             'pagination' => [
-                'enabled' => true,
+                'enabled' => false,
                 'built_in_css' => true,
                 'delta' => 0
             ],
@@ -657,7 +669,7 @@ return [
             ],
             'archives' => [
                 'enabled' => true,
-                'built_in_css' => true,
+                'built_in_css' => false,
                 'date_display_format' => 'F Y',
                 'show_count' => true,
                 'limit' => 12,
@@ -667,7 +679,9 @@ return [
                 ],
                 'filter_combinator' => 'and',
                 'filters' => [
-                    'category' => 'blog'
+                    'category' => [
+                        0 => 'blog'
+                    ]
                 ],
                 'taxonomy_names' => [
                     'month' => 'archives_month',
@@ -857,11 +871,11 @@ return [
                 ]
             ],
             'feed' => [
-                'enabled' => true,
-                'limit' => 10,
+                'enabled' => false,
+                'limit' => 333333333333,
                 'description' => 'My Feed Description',
                 'lang' => 'en-us',
-                'length' => 500,
+                'length' => 13333333333,
                 'enable_json_feed' => false
             ],
             'shortcode-core' => [
@@ -1452,8 +1466,8 @@ node_modules'
             ],
             'summary' => [
                 'enabled' => true,
-                'format' => 'short',
-                'size' => 300,
+                'format' => 'long',
+                'size' => 1000,
                 'delimiter' => '==='
             ],
             'redirects' => NULL,
@@ -1531,10 +1545,10 @@ node_modules'
                 'publish_dates' => true,
                 'process' => [
                     'markdown' => true,
-                    'twig' => false
+                    'twig' => true
                 ],
                 'twig_first' => false,
-                'never_cache_twig' => false,
+                'never_cache_twig' => true,
                 'events' => [
                     'page' => true,
                     'twig' => true
@@ -1565,7 +1579,7 @@ node_modules'
                 'etag' => false,
                 'vary_accept_encoding' => false,
                 'redirect_default_route' => false,
-                'redirect_default_code' => 302,
+                'redirect_default_code' => '302',
                 'redirect_trailing_slash' => true,
                 'ignore_files' => [
                     0 => '.DS_Store'
@@ -1586,7 +1600,7 @@ node_modules'
                 ]
             ],
             'cache' => [
-                'enabled' => true,
+                'enabled' => false,
                 'check' => [
                     'method' => 'file'
                 ],
@@ -1630,7 +1644,7 @@ node_modules'
                 ]
             ],
             'errors' => [
-                'display' => true,
+                'display' => 1,
                 'log' => true
             ],
             'log' => [
@@ -1662,7 +1676,8 @@ node_modules'
                 'allowed_fallback_types' => [
                     
                 ],
-                'auto_metadata_exif' => false
+                'auto_metadata_exif' => false,
+                'upload_limit' => 104857600
             ],
             'session' => [
                 'enabled' => true,

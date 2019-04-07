@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1554625478,
-    'checksum' => 'e8e6cd8bfcbfd53dcea7cdf5fcb4473a',
+    'timestamp' => 1554630169,
+    'checksum' => '4f0d1f11dd88e39e30bae811bcea29c8',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -33,9 +33,13 @@ return [
                 'file' => 'user/config/plugins/mediaembed.yaml',
                 'modified' => 1554612738
             ],
+            'plugins/pagination' => [
+                'file' => 'user/config/plugins/pagination.yaml',
+                'modified' => 1554628329
+            ],
             'plugins/relatedpages' => [
                 'file' => 'user/config/plugins/relatedpages.yaml',
-                'modified' => 1554612082
+                'modified' => 1554625508
             ],
             'plugins/topicmenu' => [
                 'file' => 'user/config/plugins/topicmenu.yaml',
@@ -55,7 +59,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1553112881
+                'modified' => 1554629809
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -63,7 +67,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1554624871
+                'modified' => 1554630102
             ],
             'themes/bones' => [
                 'file' => 'user/config/themes/bones.yaml',
@@ -127,7 +131,7 @@ return [
             ],
             'plugins/pagination' => [
                 'file' => 'user/plugins/pagination/pagination.yaml',
-                'modified' => 1554613373
+                'modified' => 1554628367
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
@@ -278,7 +282,7 @@ return [
                 'figcaption_class' => NULL
             ],
             'pagination' => [
-                'enabled' => true,
+                'enabled' => false,
                 'built_in_css' => true,
                 'delta' => 0
             ],
@@ -316,7 +320,7 @@ return [
                 'taxonomy_level_2' => 'tag'
             ],
             'relatedpages' => [
-                'enabled' => false,
+                'enabled' => true,
                 'limit' => 5,
                 'show_score' => true,
                 'score_threshold' => 20,
@@ -1452,8 +1456,8 @@ node_modules'
             ],
             'summary' => [
                 'enabled' => true,
-                'format' => 'short',
-                'size' => 300,
+                'format' => 'long',
+                'size' => 1000,
                 'delimiter' => '==='
             ],
             'redirects' => NULL,
@@ -1531,10 +1535,10 @@ node_modules'
                 'publish_dates' => true,
                 'process' => [
                     'markdown' => true,
-                    'twig' => false
+                    'twig' => true
                 ],
                 'twig_first' => false,
-                'never_cache_twig' => false,
+                'never_cache_twig' => true,
                 'events' => [
                     'page' => true,
                     'twig' => true
@@ -1565,7 +1569,7 @@ node_modules'
                 'etag' => false,
                 'vary_accept_encoding' => false,
                 'redirect_default_route' => false,
-                'redirect_default_code' => 302,
+                'redirect_default_code' => '302',
                 'redirect_trailing_slash' => true,
                 'ignore_files' => [
                     0 => '.DS_Store'
@@ -1586,7 +1590,7 @@ node_modules'
                 ]
             ],
             'cache' => [
-                'enabled' => true,
+                'enabled' => false,
                 'check' => [
                     'method' => 'file'
                 ],
@@ -1630,7 +1634,7 @@ node_modules'
                 ]
             ],
             'errors' => [
-                'display' => true,
+                'display' => 1,
                 'log' => true
             ],
             'log' => [
@@ -1662,7 +1666,8 @@ node_modules'
                 'allowed_fallback_types' => [
                     
                 ],
-                'auto_metadata_exif' => false
+                'auto_metadata_exif' => false,
+                'upload_limit' => 104857600
             ],
             'session' => [
                 'enabled' => true,

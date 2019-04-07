@@ -2,5 +2,6 @@
 
 {% block content %}
     {{ page.content|raw }}
+    {{ post.summary(300) }}
 {% endblock %}
 
