@@ -1,5 +1,6 @@
 ---
 title: Blog
+media_order: 'Asset 7.png'
 content:
     items:
         - '@self.children'
