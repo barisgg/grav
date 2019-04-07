@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1554625509,
-    'checksum' => 'b1289b98f35a980cc00784cf03fb9116',
+    'timestamp' => 1554625478,
+    'checksum' => 'e8e6cd8bfcbfd53dcea7cdf5fcb4473a',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -35,7 +35,7 @@ return [
             ],
             'plugins/relatedpages' => [
                 'file' => 'user/config/plugins/relatedpages.yaml',
-                'modified' => 1554625508
+                'modified' => 1554612082
             ],
             'plugins/topicmenu' => [
                 'file' => 'user/config/plugins/topicmenu.yaml',
@@ -316,7 +316,7 @@ return [
                 'taxonomy_level_2' => 'tag'
             ],
             'relatedpages' => [
-                'enabled' => true,
+                'enabled' => false,
                 'limit' => 5,
                 'show_score' => true,
                 'score_threshold' => 20,

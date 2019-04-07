@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/config/plugins/relatedpages.yaml',
-    'modified' => 1554612082,
+    'modified' => 1554625508,
     'data' => [
-        'enabled' => false,
+        'enabled' => true,
         'limit' => 5,
         'show_score' => true,
         'score_threshold' => 20,

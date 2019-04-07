@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/data/notifications/86817eada6e76c6879a6397ada87d8bf.yaml',
-    'modified' => 1554594370,
+    'modified' => 1554625505,
     'data' => [
-        'last_checked' => 1554594370,
+        'last_checked' => 1554625505,
         'data' => [
             'feed' => [
                 0 => [
